@@ -1,5 +1,5 @@
 <template>
-  <h1>Header Section</h1>
+  <h1>Header Section path</h1>
 </template>
 
 <script>
