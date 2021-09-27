@@ -22,8 +22,10 @@ import router from './router/route';
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+
+Vue.component('top-bar', require('./components/topbar.vue').default);
 Vue.component('app-header', require('./components/header.vue').default);
+Vue.component('app-slider', require('./components/slider.vue').default);
 Vue.component('app-footer', require('./components/footer.vue').default);
 
 

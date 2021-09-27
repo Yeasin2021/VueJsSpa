@@ -1,5 +1,5 @@
 <template>
-  <h1>Content Part!!!!!</h1>
+  <h1>i'm from home</h1>
 </template>
 
 <script>
